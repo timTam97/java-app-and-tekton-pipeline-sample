@@ -22,4 +22,4 @@ spec:
           mkdir /workspace/source/$(params.uid) && cd /workspace/source/$(params.uid);
           git clone $(params.app-git) /workspace/source/$(params.uid);
 
-      image: image-registry.openshift-image-registry.svc:5000/openshift/jenkins-agent-maven
+      image: image-registry.openshift-image-registry.svc:5000/openshift/ose-jenkins-agent-maven
